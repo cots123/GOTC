@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>99</title>
+	<script type="text/javascript">
+//实例：九九乘法表
+/*var str;
+var i;  //代表行数
+var j;  //代表列数
+str = "<table border='1' >";
+	for(i=1;i<=9;i++){
+		str+="<tr>";
+		for(j=1;j<=i;j++){
+			str+="<td>1234<td>";
+		}
+		str+="</tr>";
+	}
+str += "</table>";
+document.write(str);*/
+	var str;
+	var i,j;
+	str = "<table border = '1'>";
+	for(i=1;i<=9;i++){
+		str += "<tr>";
+		for(j=1;j<=i;j++){
+			str += "<td>"+j+"×"+i+"="+i*j+"</td>";
+		}
+		str += "</tr>";
+	}
+	str += "</table>";
+	document.write(str);
+</script>
+</head>
+
+<body>
+</body>
+</html>
